@@ -98,7 +98,7 @@
     "create_time": "2023-06-12T22:41:55.352710+00:00",
     "draft_mode": false,
     "labels": [
-        "*"
+        "events"
     ],
     "tags": []
 }
