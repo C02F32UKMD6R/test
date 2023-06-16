@@ -12,38 +12,9 @@ from datetime import datetime, timedelta
 def on_start(container):
     phantom.debug('on_start() called')
 
-    # call 'prompt_1' block
-    prompt_1(container=container)
+
 
     return
-
-@phantom.playbook_block()
-def prompt_1(action=None, success=None, container=None, results=None, handle=None, filtered_artifacts=None, filtered_results=None, custom_function=None, **kwargs):
-    phantom.debug("prompt_1() called")
-
-    # set user and message variables for phantom.prompt call
-
-    user = container.get('owner_name', None)
-    role = None
-    message = """"""
-
-    # parameter list for template variable replacement
-    parameters = []
-
-    # responses
-    response_types = [
-        {
-            "prompt": "asdf",
-            "options": {
-                "type": "message",
-            },
-        }
-    ]
-
-    phantom.prompt2(container=container, user=user, role=role, message=message, respond_in_mins=30, name="prompt_1", parameters=parameters, response_types=response_types)
-
-    return
-
 
 @phantom.playbook_block()
 def on_finish(container, summary):

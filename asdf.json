@@ -5,23 +5,8 @@
     "coa": {
         "data": {
             "description": "",
-            "edges": [
-                {
-                    "id": "port_0_to_port_2",
-                    "sourceNode": "0",
-                    "sourcePort": "0_out",
-                    "targetNode": "2",
-                    "targetPort": "2_in"
-                },
-                {
-                    "id": "port_2_to_port_1",
-                    "sourceNode": "2",
-                    "sourcePort": "2_out",
-                    "targetNode": "1",
-                    "targetPort": "1_in"
-                }
-            ],
-            "hash": "5814153bd3ccf18f60dea0e25c4acb5e7a568a20",
+            "edges": [],
+            "hash": "34f214649e27c33ea22c0dd6363172679b9d6dd0",
             "nodes": {
                 "0": {
                     "data": {
@@ -54,36 +39,6 @@
                     "warnings": {},
                     "x": 1000,
                     "y": 1000
-                },
-                "2": {
-                    "data": {
-                        "advanced": {
-                            "join": []
-                        },
-                        "approver": {
-                            "type": "user",
-                            "value": "container_owner"
-                        },
-                        "functionId": 1,
-                        "functionName": "prompt_1",
-                        "id": "2",
-                        "message": "",
-                        "parameters": [],
-                        "responseTime": 30,
-                        "responses": [
-                            {
-                                "responsePrompt": "asdf",
-                                "responseType": "message"
-                            }
-                        ],
-                        "type": "prompt"
-                    },
-                    "errors": {},
-                    "id": "2",
-                    "type": "prompt",
-                    "warnings": {},
-                    "x": 1020,
-                    "y": 600
                 }
             },
             "notes": ""
@@ -93,12 +48,12 @@
         "playbook_type": "automation",
         "python_version": "3",
         "schema": "5.0.10",
-        "version": "6.1.0.107"
+        "version": "6.1.0.122"
     },
-    "create_time": "2023-06-12T22:41:55.352710+00:00",
+    "create_time": "2023-06-16T17:51:37.075034+00:00",
     "draft_mode": false,
     "labels": [
-        "events"
+        "*"
     ],
     "tags": []
 }
